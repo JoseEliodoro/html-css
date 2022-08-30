@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    /* text-transform: uppercase;  Utilizando esse deixa todas as letras maiusculas do mesmo tamanho*/
+    font-variant: small-caps; /* Deixa todas maiúsculas com a primeira maior */
+    
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 10vh 30px;
+    line-height: 2em;
+
+}
+
+section.normal{
+    background-color: #fff;
+    color: #000;
+}
+
+section.imagem{
+    background-color: lightpink;
+}
+
+section.imagem p {
+    width: 400px;
+    background-color: rgba(31, 31, 31, 0.616);
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
